@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.178">
+    <testcase classname="Check home page functionality" name="check logout link" time="0.032">
+        <system-out><![CDATA[Given user is on login page.................................................passed
+When user enters username and password......................................passed
+And click on login button...................................................passed
+Then user is navigated to the homepage......................................passed
+When user clicks on welcome link............................................passed
+Then logout link is displayed...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Check home page functionality" name="verify quick launch toolbar is present" time="0.002">
+        <system-out><![CDATA[Given user is on login page.................................................passed
+When user enters username and password......................................passed
+And click on login button...................................................passed
+Then user is navigated to the homepage......................................passed
+When user clicks on dashboard link..........................................passed
+Then quick launch toolbar is displayed......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

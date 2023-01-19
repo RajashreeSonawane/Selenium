@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.189">
+    <testcase classname="Check home page functionality" name="check logout link" time="0.034">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is logged in.....................................................undefined
+When user clicks on welcome link............................................skipped
+Then logout link is displayed...............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Check home page functionality" name="verify quick launch toolbar is present" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is logged in.....................................................undefined
+When user clicks on dashboard link..........................................skipped
+Then quick launch toolbar is displayed......................................skipped
+]]></failure>
+    </testcase>
+</testsuite>

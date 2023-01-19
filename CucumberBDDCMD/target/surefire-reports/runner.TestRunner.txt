@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.715 s <<< FAILURE! - in runner.TestRunner
+Check login with valid credentials(demo functionality test)  Time elapsed: 0.09 s  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+
